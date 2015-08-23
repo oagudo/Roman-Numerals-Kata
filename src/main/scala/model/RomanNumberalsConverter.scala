@@ -3,12 +3,12 @@ package model
 import java.security.InvalidParameterException
 import scala.math._
 
-trait RomanNumberConverter {
+trait RomanNumberalsConverter {
   def romanize(n: Int) : String
   def numerize(n: String) : Int
 }
 
-object RomanConverter extends RomanNumberConverter {
+object RomanNumerals extends RomanNumberalsConverter {
   
   override def romanize(n: Int) = {
     require(n > 0)

@@ -26,13 +26,13 @@ class RomanNumeralsTest extends FunSuite with Checkers {
 
   test("Roman numbers can be converted to its arabic number representation") {
     for (n <- numbers) {
-      check (RomanConverter.romanize(n.digits).equals(n.roman))
+      check (RomanNumerals.romanize(n.digits).equals(n.roman))
     }
   }
 
   test("Arabic numbers can be converted to its roman number representation") {
     for (n <- numbers) {
-      check (RomanConverter.numerize(n.roman).equals(n.digits))
+      check (RomanNumerals.numerize(n.roman).equals(n.digits))
     }
   }
 }

@@ -1,6 +1,6 @@
 # Roman-Numerals-Kata
 
-Kata taken from: https://github.com/12meses12katas/Febrero-Roman-Numerals
+Kata from: https://github.com/12meses12katas/Febrero-Roman-Numerals
 
 Problem Description
 
